@@ -10,7 +10,7 @@ body {
 /*-------------HEADER--------------*/
 
 .header-logo {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
 font-weight: bold;
 font-size: 26px;
 line-height: 1.19;
@@ -111,7 +111,7 @@ color: #757575;
 /*---------FOOTER----------*/
 
 .footer-logo {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
@@ -129,3 +129,88 @@ letter-spacing: 0.03em;
 line-height: 1.71;
 *color: rgba(255, 255, 255, 0.6);*
 }
+
+
+
+/*-------------------------PORTFOLIO.html----------------*/
+
+body {
+    font-family: Roboto, sans-serif;
+   }
+ 
+/*-----------HEADER-PRT---------*/
+
+.prt-header-logo {
+font-family: Raleway;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+
+.prt-nav-link:focus {
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+}   
+.prt-nav-link:focus {
+    color: #2196F3;
+}
+
+.prt-nav-adress {
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+/*----------BUTTON-NAVIGATION----*/
+
+.prt-button-link {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.prt-button-link:hover {
+    color: #FFFFFF;
+}
+
+/*-----------PROJECTS-------*/
+
+.prt-post-title {
+    font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.prt-post-text {
+    font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/*---------FOOTER-------*/
+
+.prt-footer-logo {
+    font-family: Raleway;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+
+ .prt-footer-adress-link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em; 
+    color: rgba(255, 255, 255, 0.6);
+ }
+
