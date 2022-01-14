@@ -1,5 +1,17 @@
 
               /*-------INDEX.HTML------*/
+:root{
+    /*index.html*/
+    --header-text-color: #212121;;
+    --benefits-first-color: #212121;
+    --benefits-second-color: #757575;
+    --staff-first-color: #212121;
+    --staff-second-color: #757575;
+    /*portfolio.html*/
+    --prt-header-text-color: #212121;;
+    --benefits-first-color: #212121;
+    --benefits-second-color: #757575;
+}
 
 body {
  font-family: Roboto, sans-serif;
@@ -23,7 +35,7 @@ color: #2196F3;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #212121;
+color: var(--header-text-color);
 }
 
 .nav-adress {
@@ -35,7 +47,10 @@ color: #757575;
 }
 
 .nav-link:hover,
-.nav-adress:hover{
+.nav-link:focus,
+.nav-adress:hover,
+.nav-adress:focus{
+    cursor: pointer;
     color: #2196F3;
 }
 
@@ -58,6 +73,7 @@ text-transform: uppercase;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
     
     color: #FFFFFF;
     
@@ -70,13 +86,13 @@ text-transform: uppercase;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;}
-    
+    color: var(--benefits-first-color);
+}
 .post-text {
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--benefits-second-color)
 }
 
 /*----------ACTIVITY----------*/
@@ -97,7 +113,7 @@ font-size: 16px;
 line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--staff-first-color)
 }
 
 .staff-position {
@@ -105,7 +121,7 @@ color: #212121;
 line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--staff-second-color)
 }
 
 /*---------FOOTER----------*/
@@ -127,7 +143,12 @@ letter-spacing: 0.03em;
 .footer-adress-link {
     font-size: 14px;
 line-height: 1.71;
-*color: rgba(255, 255, 255, 0.6);*
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-adress-link:focus,
+.footer-adress-link:hover{
+    color: #FFFFFF;
 }
 
 
@@ -141,7 +162,7 @@ body {
 /*-----------HEADER-PRT---------*/
 
 .prt-header-logo {
-font-family: Raleway;
+font-family: Raleway, sans-serif;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
@@ -153,9 +174,14 @@ color: #2196F3;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #212121;
+color: var(--prt-header-text-color)
 }   
-.prt-nav-link:focus {
+
+.prt-nav-link:hover,
+.prt-nav-link:focus,
+.prt-nav-adress:hover,
+.prt-nav-adress:focus{
+    cursor: pointer;
     color: #2196F3;
 }
 
@@ -167,7 +193,7 @@ letter-spacing: 0.02em;
 color: #757575;
 }
 
-/*----------BUTTON-NAVIGATION----*/
+/*----------BUTTON-NAVIGATION-PRT----*/
 
 .prt-button-link {
     font-weight: 500;
@@ -179,6 +205,7 @@ color: #212121;
 }
 .prt-button-link:hover {
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 /*-----------PROJECTS-------*/
@@ -200,7 +227,7 @@ color: #757575;
 /*---------FOOTER-------*/
 
 .prt-footer-logo {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
@@ -214,3 +241,7 @@ color: #2196F3;
     color: rgba(255, 255, 255, 0.6);
  }
 
+.prt-footer-adress-link:focus,
+.prt-footer-adress-link:hover{
+    color: #FFFFFF;
+}
