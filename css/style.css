@@ -1,0 +1,131 @@
+
+              /*-------INDEX.HTML------*/
+
+body {
+ font-family: Roboto, sans-serif;
+}
+
+
+
+/*-------------HEADER--------------*/
+
+.header-logo {
+    font-family: Raleway;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+
+.nav-link {
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+}
+
+.nav-adress {
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.nav-link:hover,
+.nav-adress:hover{
+    color: #2196F3;
+}
+
+/*------------HERO------------*/
+
+.hero-title {
+    font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+*color: #FFFFFF;*
+}
+
+.button-link {
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    color: #FFFFFF;
+    
+}
+
+/*----------BENEFITS--------*/
+
+.post-title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;}
+    
+.post-text {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/*----------ACTIVITY----------*/
+
+.activity-titile {
+    font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+/*-----------STAFF------------*/
+
+.staff-name {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.staff-position {
+    font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/*---------FOOTER----------*/
+
+.footer-logo {
+    font-family: Raleway;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+
+.footer-adress {
+    font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+*color: #FFFFFF;*
+}
+
+.footer-adress-link {
+    font-size: 14px;
+line-height: 1.71;
+*color: rgba(255, 255, 255, 0.6);*
+}

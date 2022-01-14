@@ -6,60 +6,62 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
 
 </head>
 
 <body>
   <!--шапка сайта-->
 
-  <header>
+  <header class="header">
     <nav>
-      <a href="">WebStudio</a>
-      <ul>
-        <li><a href="">Студия</a></li>
-        <li><a href="portfolio.html">Портфолио</a></li>
-        <li><a href="">Контакты</a></li>
+      <a href="" class="header-logo">WebStudio</a>
+      <ul class="header-list">
+        <li><a class="nav-link" href="">Студия</a></li>
+        <li><a class="nav-link" href="portfolio.html">Портфолио</a></li>
+        <li><a class="nav-link" href="">Контакты</a></li>
       </ul>
     </nav>
     <ul>
-      <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-      <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <li><a class="nav-adress" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+      <li><a class="nav-adress" href="tel:+380961111111">+38 096 111 11 11</a></li>
     </ul>
   </header>
   <main>
+
     <!--герой-->
 
     <section>
-      <h1>Эффективные решения для вашего бизнеса</h1>
-      <button type="button">заказать услугу</button>
+      <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
+      <button type="button" class="button-link">заказать услугу</button>
     </section>
 
     <!--преимущества-->
 
     <section>
-      <ul>
+      <ul class="about-list">
         <li>
-          <h3>Внимание к деталям</h3>
-          <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+          <h3 class="post-title">Внимание к деталям</h3>
+          <p class="post-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
         </li>
 
         <li>
-          <h3>Пунктуальность</h3>
-          <p>
+          <h3 class="post-title">Пунктуальность</h3>
+          <p class="post-text">
             Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
           </p>
         </li>
         <li>
-          <h3>Планирование</h3>
-
-          <p>
+          <h3 class="post-title">Планирование</h3>
+          <p class="post-text">
             Равным образом консультация с широким активом в значительной степени обуславливает.
           </p>
         </li>
 
         <li>
-          <h3>Современные технологии</h3>
-          <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+          <h3 class="post-title">Современные технологии</h3>
+          <p class="post-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
         </li>
       </ul>
     </section>
@@ -67,8 +69,8 @@
     <!--вид деятельности-->
 
     <section>
-      <ul>
-      <h2>Чем мы занимаемся</h2>
+      <ul class="activity-list">
+      <h2 class="activity-title">Чем мы занимаемся</h2>
         <li>
           <img src="./images/activity.jpg" width="370" alt="набор текста на клавиатуре" />
         </li>
@@ -86,26 +88,26 @@
     <!--персонал-->
 
     <section>
-      <ul>
+      <ul class="staff-list">
         <li>
       <img src="./images/staff-1.jpg" width="270" alt="анфас-игорь" />
-      <h3>Игорь Демьяненко</h3>
-      <p>Product Designer</p>
+      <h3 class="staff-name">Игорь Демьяненко</h3>
+      <p class="staff-position">Product Designer</p>
     </li>
     <li>
       <img src="./images/staff-2.jpg" width="270" alt="анфас-ольга" />
-      <h3>Ольга Репина</h3>
-      <p>Frontend Developer</p>
+      <h3 class="staff-name">Ольга Репина</h3>
+      <p class="staff-position">Frontend Developer</p>
     </li>
     <li>
       <img src="./images/staff-3.jpg" width="270" alt="анфас-николай" />
-      <h3>Николай Тарасов</h3>
-      <p>Marketing</p>
+      <h3 class="staff-name">Николай Тарасов</h3>
+      <p class="staff-position">Marketing</p>
     </li>
   <li>
       <img src="./images/staff-4.jpg" width="270" alt="анфас-михаил" />
-      <h3>Михаил Ермаков</h3>
-      <p>UI Designer</p>
+      <h3 class="staff-name">Михаил Ермаков</h3>
+      <p class="staff-position">UI Designer</p>
     </li>
     </ul>
     </section>
@@ -113,12 +115,12 @@
 
   <!--подвал-->
 
-  <footer>
-    <a href="">WebStudio</a>
-    <ul>
-      <li><a href="">г. Киев, пр-т Леси Украинки, 26</a></li>
-      <li><a href="mailto:info@example.com">info@example.com</a></li>
-      <li><a href="tel:380441111111">+38 099 111 11 11</a></li>
+  <footer class="footer">
+    <a href="" class="footer-logo">WebStudio</a>
+    <ul class="footer-list">
+      <li><a class="footer-adress" href="">г. Киев, пр-т Леси Украинки, 26</a></li>
+      <li><a class="footer-adress-link" href="mailto:info@example.com">info@example.com</a></li>
+      <li><a class="footer-adress-link" href="tel:380441111111">+38 099 111 11 11</a></li>
     </ul>
   </footer>
 </body>
