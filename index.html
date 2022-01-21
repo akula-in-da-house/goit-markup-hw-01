@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="./css/modern-normalize.css">
   <link rel="stylesheet" href="./css/style.css">
 
 </head>
@@ -14,34 +17,42 @@
 <body>
   <!--шапка сайта-->
 
-  <header class="header-link list">
-    <nav>
+  <header class="header list">
+    <div class=" header-link containe "> 
       <a href="" class="header-logo">Web<span>Studio</span></a>
+    <nav>
       <ul class="header-list list">
         <li><a class="nav-link" href="">Студия</a></li>
         <li><a class="nav-link" href="portfolio.html">Портфолио</a></li>
         <li><a class="nav-link" href="">Контакты</a></li>
       </ul>
     </nav>
-    <ul class="list">
+    <ul class="header-adress list">
       <li><a class="nav-adress" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
       <li><a class="nav-adress" href="tel:+380961111111">+38 096 111 11 11</a></li>
     </ul>
+  </div>
   </header>
   <main>
 
     <!--герой-->
 
     <section>
+      <div>
+      <ul class="hero">
       <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
-      <button type="button" class="button-link">Заказать услугу</button>
+      <li class="button-title"><button type="button" class="button-link">Заказать услугу</button>
+      </li>
+    </ul>
+  </div>
     </section>
 
     <!--преимущества-->
 
-    <section>
+    <section class="sectio">
+      <div class="containe"> 
       <ul class="about-list">
-        <li>
+        <li >
           <h3 class="post-title">Внимание к деталям</h3>
           <p class="post-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
         </li>
@@ -64,58 +75,69 @@
           <p class="post-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
         </li>
       </ul>
+    </div>
     </section>
 
     <!--вид деятельности-->
 
-    <section>
+    <section class="section">
+       <div class="containe activity">
+        <h2 class="activity-title">Чем мы занимаемся</h2>
       <ul class="activity-list">
-      <h2 class="activity-title">Чем мы занимаемся</h2>
-        <li>
-          <img src="./images/activity.jpg" width="370" alt="набор текста на клавиатуре" />
+        <li class="activity-photo">
+          <img src="./images/activity.jpg" width="370" height="294px" alt="набор текста на клавиатуре" />
         </li>
 
-        <li>
-          <img src="./images/activity-1.jpg" width="370" alt="мобильный телефон в левой руке" />
+        <li class="activity-photo">
+          <img src="./images/activity-1.jpg"  width="370" height="294px" alt="мобильный телефон в левой руке" />
         </li>
 
-        <li>
-          <img src="./images/activity-2.jpg" width="370" alt="цветовая гамма на планшете" />
+        <li class="activity-photo">
+          <img src="./images/activity-2.jpg" width="370" height="294px" lt="цветовая гамма на планшете" />
         </li>
       </ul>
+    </div>
     </section>
 
     <!--персонал-->
 
-    <section>
+    <section class="staff section">
+      <div class="containe">  
+        <h2 class="staff-list-title">Наша команда</h2>
       <ul class="staff-list">
-        <li>
-      <img src="./images/staff-1.jpg" width="270" alt="анфас-игорь" />
+
+        <li class="staff-block">
+      <img src="./images/staff-1.jpg" width="270" height="260" alt="анфас-игорь" />
       <h3 class="staff-name">Игорь Демьяненко</h3>
       <p class="staff-position">Product Designer</p>
     </li>
-    <li>
-      <img src="./images/staff-2.jpg" width="270" alt="анфас-ольга" />
+
+    <li class="staff-block">
+      <img src="./images/staff-2.jpg" width="270" height="260" alt="анфас-ольга" />
       <h3 class="staff-name">Ольга Репина</h3>
       <p class="staff-position">Frontend Developer</p>
     </li>
-    <li>
-      <img src="./images/staff-3.jpg" width="270" alt="анфас-николай" />
-      <h3 class="staff-name">Николай Тарасов</h3>
-      <p class="staff-position">Marketing</p>
-    </li>
-  <li>
-      <img src="./images/staff-4.jpg" width="270" alt="анфас-михаил" />
+
+    <li class="staff-block">
+      <img src="./images/staff-4.jpg" width="270" height="260" alt="анфас-михаил" />
       <h3 class="staff-name">Михаил Ермаков</h3>
       <p class="staff-position">UI Designer</p>
     </li>
+
+    <li class="staff-block">
+      <img src="./images/staff-3.jpg" width="270" height="260" alt="анфас-николай" />
+      <h3 class="staff-name">Николай Тарасов</h3>
+      <p class="staff-position">Marketing</p>
+    </li>
+
     </ul>
+  </div>
     </section>
   </main>
 
   <!--подвал-->
-
-  <footer class="footer list">
+<div class="footer">
+  <footer class="list">
     <a href="" class="footer-logo">Web<span>Studio</span></a>
     <ul class="footer-list list">
       <li><a class="footer-adress" href="">г. Киев, пр-т Леси Украинки, 26</a></li>
@@ -123,6 +145,7 @@
       <li><a class="footer-adress-link" href="tel:380441111111">+38 099 111 11 11</a></li>
     </ul>
   </footer>
+</div>
 </body>
 
 </html>
